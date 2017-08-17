@@ -4,7 +4,6 @@
 ;; URL: http://github.com/marktran/color-theme-ujelly
 ;; Version: 1.2.9
 
-;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme vibrant "Vibrant Ink color theme")
 
 (custom-theme-set-faces
@@ -41,6 +40,6 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'vibrant-ink)
+(provide-theme 'vibrant)
 
 ;;; vibrant-theme.el ends here
