@@ -9,16 +9,17 @@
 (let ((class '((class color) (min-colors 89)))
        (vibrant-fg "#ffffff")
        (vibrant-bg (if (display-graphic-p) "#000000" nil))
+       (vibrant-gray "#444444")
+       (vibrant-orange "#ff6600")
        )
 
        (custom-theme-set-faces
          'vibrant
          `(default ((,class (:foreground ,vibrant-fg :background ,vibrant-bg))))
-         ;; '(region ((t (:background "#444444"))))
-         ;; '(mode-line ((t (:background "#bfbfbf" :foreground "#000000"))))
-         ;; '(mode-line-inactive ((t (:background "#e5e5e5" :foreground "#333333"))))
-         ;; '(fringe ((t (:background "#000000"))))
-         ;; '(minibuffer-prompt ((t (:foreground "#ff6600"))))
+         `(cursor ((,class ((:foreground ,vibrant-fg :background ,vibrant-bg)))))
+         `(region ((,class (:background ,vibrant-gray))))
+         `(fringe ((,class (:background ,vibrant-bg))))
+         `(minibuffer-prompt ((,class (:foreground ,vibrant-orange))))
          ;; '(font-lock-builtin-face ((t (:foreground "#aaccff"))))
          ;; '(font-lock-comment-face ((t (:slant italic :foreground "#9933cc"))))
          ;; '(font-lock-constant-face ((t (:foreground "#339999"))))
