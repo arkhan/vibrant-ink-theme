@@ -54,15 +54,15 @@
          `(company-scrollbar-bg ((,class (:background ,vibrant-black-0))))
          `(company-scrollbar-fg ((,class (:background ,vibrant-black-0))))
          `(company-tooltip ((,class (:foreground ,vibrant-fg :background ,vibrant-black-0))))
-         `(company-tooltip-common ((,class (:foreground ,vibrant-yellow-0 :background ,vibrant-black-0))))
-         `(company-tooltip-common-selection ((,class (:underline t :foreground ,vibrant-yellow-0 :background ,vibrant-gray-0))))
+         `(company-tooltip-common ((,class (:underline t :foreground ,vibrant-yellow-0 :background ,vibrant-black-0))))
+         `(company-tooltip-common-selection ((,class (:foreground ,vibrant-yellow-0 :background ,vibrant-gray-0))))
          `(company-tooltip-selection ((,class (:background ,vibrant-gray-0))))
          ;; NXML
          `(nxml-element-local-name ((,class (:foreground ,vibrant-orange-0))))
          `(nxml-delimiter ((,class (:foreground ,vibrant-orange-0))))
          `(nxml-attribute-local-name ((,class (:foreground ,vibrant-green-0))))
          ;; Ivy
-         `(ivy-current-match ((,class (:underline t :foreground ,vibrant-yellow-0 :background ,vibrant-black-0))))
+         `(ivy-current-match ((,class (:foreground ,vibrant-yellow-0 :background ,vibrant-black-0))))
          `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,vibrant-yellow-0))))
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,vibrant-yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,vibrant-yellow-0))))
