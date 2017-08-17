@@ -1,7 +1,7 @@
 (deftheme vibrant "Vibrant Ink color theme")
 
 (custom-theme-set-faces
- 'vibrant-ink
+ 'vibrant
  '(default ((t (:background "#111111" :foreground "#ffffff"))))
  '(cursor ((t (:background "#555577" :foreground "#ffffff"))))
  '(region ((t (:background "#444444"))))
