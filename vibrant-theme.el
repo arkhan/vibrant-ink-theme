@@ -8,15 +8,12 @@
 
 (let ((class '((class color) (min-colors 89)))
        (vibrant-fg "#ffffff")
-       (vibrant-bg (if (display-graphic-p)
-                     "#000000"
-                     nil))
-
+       (vibrant-bg (if (display-graphic-p) "#000000" nil))
+       )
 
        (custom-theme-set-faces
          'vibrant
-         `(default ((,class (:foreground ,vibrant-fg :background ,vibrant-bg)))))))
-         ;; '(cursor ((t (:background "#000000" :foreground "#ffffff"))))
+         `(default ((,class (:foreground ,vibrant-fg :background ,vibrant-bg))))
          ;; '(region ((t (:background "#444444"))))
          ;; '(mode-line ((t (:background "#bfbfbf" :foreground "#000000"))))
          ;; '(mode-line-inactive ((t (:background "#e5e5e5" :foreground "#333333"))))
@@ -41,8 +38,8 @@
          ;; '(link-visited ((t (:foreground "#aaccff" :underline t))))
          ;; '(button ((t (:background "#bfbfbf" :underline t))))
          ;; '(header-line ((t (:background "#e5e5e5" :foreground "#333333"))))
-         ;; '(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
-         ;; '(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil)))))))
+         `(mode-line ((,class (:foreground ,vibrant-fg :background nil))))
+         `(mode-line-inactive ((,class (:foreground ,vibrant-fg :background nil))))))
 
 ;;;###autoload
 (when load-file-name
