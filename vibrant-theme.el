@@ -34,7 +34,7 @@
          `(font-lock-comment-delimiter-face ((,class (:bold t, :foreground ,vibrant-purple-0))))
          `(font-lock-constant-face ((,class (:foreground ,vibrant-green-0))))
          `(font-lock-doc-face ((,class (:foreground ,vibrant-green-1))))
-         `(font-lock-function-name-face ((,class (:slant italic :foreground ,vibrant-yellow-0))))
+         `(font-lock-function-name-face ((,class (:foreground ,vibrant-yellow-0))))
          `(font-lock-keyword-face ((,class (:bold t :foreground ,vibrant-orange-0))))
          `(font-lock-preprocessor-face ((,class (:foreground ,vibrant-fg))))
          `(font-lock-string-face ((,class (:foreground ,vibrant-green-1))))
@@ -57,6 +57,10 @@
          `(company-tooltip-common ((,class (:foreground ,vibrant-yellow-0 :background ,vibrant-black-0))))
          `(company-tooltip-common-selection ((,class (:underline t :foreground ,vibrant-yellow-0 :background ,vibrant-gray-0))))
          `(company-tooltip-selection ((,class (:background ,vibrant-gray-0))))
+         ;; NXML
+         `(nxml-element-local-name ((,class (:foreground ,vibrant-orange-0))))
+         `(nxml-delimiter ((,class (:foreground ,vibrant-orange-0))))
+         `(nxml-attribute-local-name ((,class (:foreground ,vibrant-green-0))))
          ;; Ivy
          `(ivy-current-match ((,class (:underline t :foreground ,vibrant-yellow-0 :background ,vibrant-black-0))))
          `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,vibrant-yellow-0))))
