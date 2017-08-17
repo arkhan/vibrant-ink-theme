@@ -31,6 +31,7 @@
          `(minibuffer-prompt ((,class (:foreground ,vibrant-orange-0))))
          `(font-lock-builtin-face ((,class (:bold t :foreground ,vibrant-blue-0))))
          `(font-lock-comment-face ((,class (:slant italic :foreground ,vibrant-purple-0))))
+         `(font-lock-comment-delimiter-face ((,class (:bold t))))
          `(font-lock-constant-face ((,class (:foreground ,vibrant-green-0))))
          `(font-lock-doc-face ((,class (:foreground ,vibrant-green-1))))
          `(font-lock-function-name-face ((,class (:slant italic :foreground ,vibrant-yellow-0))))
