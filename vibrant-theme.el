@@ -1,9 +1,3 @@
-;;; ujelly-theme.el --- Ujelly theme for GNU Emacs 24 (deftheme)
-
-;; Author: Mark Tran <mark.tran@gmail.com>
-;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.2.9
-
 (deftheme vibrant "Vibrant Ink color theme")
 
 (custom-theme-set-faces
@@ -41,5 +35,3 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'vibrant)
-
-;;; vibrant-theme.el ends here
