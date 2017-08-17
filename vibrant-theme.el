@@ -38,7 +38,7 @@
          `(font-lock-keyword-face ((,class (:bold t :foreground ,vibrant-orange-0))))
          `(font-lock-preprocessor-face ((,class (:foreground ,vibrant-fg))))
          `(font-lock-string-face ((,class (:foreground ,vibrant-green-1))))
-         `(font-lock-type-face ((,class (:foreground ,vibrant-fg))))
+         `(font-lock-type-face ((,class (:bold t :foreground ,vibrant-yellow-0))))
          `(font-lock-variable-name-face ((,class (:foreground ,vibrant-fg))))
          `(font-lock-warning-face ((,class (:bold t :foreground ,vibrant-red-0))))
          `(font-lock-regexp-grouping-construct ((t (:foreground ,vibrant-yellow-0 :bold t))))
