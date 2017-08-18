@@ -47,8 +47,9 @@
          `(lazy-highlight ((,class (:background ,vibrant-gray-0))))
          `(link ((,class (:foreground ,vibrant-blue-0 :underline t))))
          `(link-visited ((,class (:foreground ,vibrant-blue-0 :underline t))))
-         `(mode-line ((,class (:foreground ,vibrant-fg :background nil))))
-         `(mode-line-inactive ((,class (:foreground ,vibrant-fg :background nil))))
+         ;; Mode line
+         `(mode-line ((,class (:foreground ,vibrant-fg :background nil :box (:color ,vibrant-gray-1)))))
+         `(mode-line-inactive ((,class (:foreground ,vibrant-fg :background nil :box (:color ,vibrant-black-0)))))
          ;; Company
          `(company-preview-common ((,class (:foreground nil :background ,vibrant-gray-0))))
          `(company-scrollbar-bg ((,class (:background ,vibrant-black-0))))
