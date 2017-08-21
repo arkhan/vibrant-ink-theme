@@ -49,6 +49,11 @@
          `(lazy-highlight ((,class (:background ,gray-0))))
          `(link ((,class (:foreground ,blue-0 :underline t))))
          `(link-visited ((,class (:foreground ,blue-0 :underline t))))
+         ;; Highlight
+         `(highlight ((,class (:background ,gray-1))))
+         `(highlight-indentation-face ((,class (:background ,gray-1))))
+         `(highlight-indentation-current-column-face ((,class (:background ,gray-1))))
+         `(hl-line ((,class (:background ,gray-1))))
          ;; Mode line
          `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
          `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
