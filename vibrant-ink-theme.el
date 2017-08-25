@@ -30,7 +30,7 @@
          `(cursor ((,class ((:foreground ,fg :background ,bg)))))
          `(region ((,class (:background ,gray-0))))
          `(fringe ((,class (:background ,bg))))
-         `(minibuffer-prompt ((,class (:foreground ,orange-0))))
+         `(minibuffer-prompt ((,class (:bold t :foreground ,orange-0))))
          `(font-lock-builtin-face ((,class (:bold t :foreground ,blue-0))))
          `(font-lock-comment-face ((,class (:slant italic :foreground ,purple-0))))
          `(font-lock-comment-delimiter-face ((,class (:bold t, :foreground ,purple-0))))
