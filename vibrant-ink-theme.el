@@ -75,7 +75,8 @@
          ;; NXML
          `(nxml-element-local-name ((,class (:foreground ,orange-0))))
          `(nxml-delimiter ((,class (:foreground ,orange-0))))
-         `(nxml-attribute-local-name ((,class (:foreground ,green-0))))
+         `(nxml-attribute-value ((,class (:foreground, green-0))))
+         `(nxml-attribute-local-name ((,class (:foreground ,blue-1))))
          ;; Org-mode
          `(org-date ((,class (:bold t :foreground ,orange-0))))
          ;; Popup
