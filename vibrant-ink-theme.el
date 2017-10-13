@@ -92,7 +92,7 @@
          `(ztreep-diff-model-normal-face ((,class (:foreground ,gray-0))))
          `(ztreep-diff-model-add-face ((,class (:foreground ,blue-0))))
          `(ztreep-diff-model-diff-face ((,class (:foreground ,blue-3))))
-         `(ztreep-diff-model-ignored-face ((,class (:foreground ,red-0))))
+         `(ztreep-diff-model-ignored-face ((,class (:strike-through t :foreground ,red-0))))
          ))
 
 ;;;###autoload
