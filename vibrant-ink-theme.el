@@ -30,7 +30,7 @@
          `(cursor ((,class ((:foreground ,fg :background ,bg)))))
          `(region ((,class (:background ,gray-0))))
          `(fringe ((,class (:background ,bg))))
-         `(minibuffer-prompt ((,class (:foreground ,orange-0))))
+         `(minibuffer-prompt ((,class (:bold t :foreground ,orange-0))))
          `(font-lock-builtin-face ((,class (:bold t :foreground ,blue-0))))
          `(font-lock-comment-face ((,class (:slant italic :foreground ,purple-0))))
          `(font-lock-comment-delimiter-face ((,class (:bold t, :foreground ,purple-0))))
@@ -49,9 +49,6 @@
          `(lazy-highlight ((,class (:background ,gray-0))))
          `(link ((,class (:foreground ,blue-0 :underline t))))
          `(link-visited ((,class (:foreground ,blue-0 :underline t))))
-         ;; Mode line
-         `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
-         `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
          ;; Company
          `(company-preview-common ((,class (:foreground nil :background ,gray-0))))
          `(company-scrollbar-bg ((,class (:background ,black-0))))
@@ -60,17 +57,32 @@
          `(company-tooltip-common ((,class (:underline t :foreground ,yellow-0 :background ,black-0))))
          `(company-tooltip-common-selection ((,class (:foreground ,yellow-0 :background ,gray-0))))
          `(company-tooltip-selection ((,class (:background ,gray-0))))
-         ;; NXML
-         `(nxml-element-local-name ((,class (:foreground ,orange-0))))
-         `(nxml-delimiter ((,class (:foreground ,orange-0))))
-         `(nxml-attribute-local-name ((,class (:foreground ,green-0))))
+         `(company-tooltip-annotation ((,class (:bold t :foreground ,orange-0))))
+         ;; Highlight
+         `(highlight ((,class (:background ,gray-1))))
+         `(highlight-indentation-face ((,class (:background ,gray-1))))
+         `(highlight-indentation-current-column-face ((,class (:background ,gray-1))))
+         `(hl-line ((,class (:background ,gray-1))))
          ;; Ivy
          `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,black-0))))
          `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-4 ((,class (:underline t :foreground ,yellow-0))))
-         ;; ztree
+         ;; Mode line
+         `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
+         `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
+         ;; NXML
+         `(nxml-element-local-name ((,class (:foreground ,orange-0))))
+         `(nxml-delimiter ((,class (:foreground ,orange-0))))
+         `(nxml-attribute-value ((,class (:foreground, green-0))))
+         `(nxml-attribute-local-name ((,class (:foreground ,blue-1))))
+         ;; Org-mode
+         `(org-date ((,class (:bold t :foreground ,orange-0))))
+         ;; Popup
+         `(popup-face ((,class (:foreground ,fg :background ,black-0))))
+         `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
+          ;; ztree
          `(ztreep-header-face ((,class (:bold t :foreground ,orange-0))))
          `(ztreep-node-face ((,class (:bold t :foreground ,green-0))))
          `(ztreep-arrow-face ((,class (:foreground ,blue-0))))
