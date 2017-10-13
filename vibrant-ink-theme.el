@@ -70,6 +70,17 @@
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-4 ((,class (:underline t :foreground ,yellow-0))))
+         ;; ztree
+         `(ztreep-header-face ((,class (:bold t :foreground ,orange-0))))
+         `(ztreep-node-face ((,class (:bold t :foreground ,green-0))))
+         `(ztreep-arrow-face ((,class (:foreground ,blue-0))))
+         `(ztreep-expand-sign-face ((,class (:bold t :foreground ,blue-0))))
+         `(ztreep-diff-header-face ((,class (:bold t :foreground ,orange-0))))
+         `(ztreep-diff-header-small-face ((,class (:bold t :foreground ,yellow-0))))
+         `(ztreep-diff-model-normal-face ((,class (:foreground ,gray-0))))
+         `(ztreep-diff-model-add-face ((,class (:foreground ,blue-0))))
+         `(ztreep-diff-model-diff-face ((,class (:foreground ,blue-3))))
+         `(ztreep-diff-model-ignored-face ((,class (:foreground ,red-0))))
          ))
 
 ;;;###autoload
