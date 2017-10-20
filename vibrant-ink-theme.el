@@ -86,6 +86,17 @@
          ;; Popup
          `(popup-face ((,class (:foreground ,fg :background ,black-0))))
          `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
+          ;; ztree
+         `(ztreep-header-face ((,class (:bold t :foreground ,orange-0))))
+         `(ztreep-node-face ((,class (:bold t :foreground ,green-0))))
+         `(ztreep-arrow-face ((,class (:foreground ,blue-0))))
+         `(ztreep-expand-sign-face ((,class (:bold t :foreground ,blue-0))))
+         `(ztreep-diff-header-face ((,class (:bold t :foreground ,orange-0))))
+         `(ztreep-diff-header-small-face ((,class (:bold t :foreground ,yellow-0))))
+         `(ztreep-diff-model-normal-face ((,class (:foreground ,gray-0))))
+         `(ztreep-diff-model-add-face ((,class (:foreground ,blue-0))))
+         `(ztreep-diff-model-diff-face ((,class (:foreground ,blue-3))))
+         `(ztreep-diff-model-ignored-face ((,class (:strike-through t :foreground ,red-0))))
          ))
 
 ;;;###autoload
