@@ -76,6 +76,10 @@
          `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
          `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
          ;; Neotree
+         `(neo-root-dir-face ((,class (:bold t :foreground ,orange-0))))
+         `(neo-dir-link-face ((,class (:bold t :foreground ,green-0))))
+         `(neo-expand-btn-face ((,class (:bold t :foreground ,blue-3))))
+         `(neo-file-link-face ((,class (:foreground ,blue-0))))
          ;; NXML
          `(nxml-element-local-name ((,class (:foreground ,orange-0))))
          `(nxml-delimiter ((,class (:foreground ,orange-0))))
