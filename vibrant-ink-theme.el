@@ -1,8 +1,11 @@
 ;;; vibrant-ink-theme.el --- VibranInk theme for GNU Emacs 24 (deftheme)
-
+;;; Commentary:
+;; This theme is based on https://github.com/marktran/color-theme-ujelly
 ;; Author: arkhan
 ;; URL: https://github.com/arkhan/emacs-vibrant-theme
 ;; Version: 0.0.1
+
+;;; Code:
 
 (deftheme vibrant-ink "Vibrant Ink color theme")
 
@@ -72,6 +75,7 @@
          ;; Mode line
          `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
          `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
+         ;; Neotree
          ;; NXML
          `(nxml-element-local-name ((,class (:foreground ,orange-0))))
          `(nxml-delimiter ((,class (:foreground ,orange-0))))
