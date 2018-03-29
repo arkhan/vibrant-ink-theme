@@ -4,6 +4,11 @@
 ;; URL: https://github.com/arkhan/emacs-vibrant-theme
 ;; Version: 0.0.1
 
+;;; Commentary:
+;; VibranInk theme for GNU Emacs 24 (deftheme)
+
+;; Code:
+
 (deftheme vibrant-ink "Vibrant Ink color theme")
 
 (let ((class '((class color) (min-colors 89)))
@@ -64,7 +69,7 @@
          `(highlight-indentation-current-column-face ((,class (:background ,gray-1))))
          `(hl-line ((,class (:background ,gray-1))))
          ;; Ivy
-         `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,black-0))))
+         `(ivy-current-match ((,class (:bold t :foreground ,yellow-0 :background ,black-0))))
          `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
@@ -78,7 +83,23 @@
          `(nxml-attribute-value ((,class (:foreground, green-0))))
          `(nxml-attribute-local-name ((,class (:foreground ,blue-1))))
          ;; Org-mode
-         `(org-date ((,class (:bold t :foreground ,orange-0))))
+         `(org-checkbox ((,class (:foreground ,green-0))))
+         `(org-date ((,class (:bold t :foreground ,gray-0))))
+         `(org-document-info-keyword ((,class (:foreground ,purple-0))))
+         `(org-document-title ((,class (:foreground ,yellow-0))))
+         `(org-done ((,class (:foreground ,green-0))))
+         `(org-level-1 ((,class (:foreground ,orange-0))))
+         `(org-level-2 ((,class (:foreground ,yellow-0))))
+         `(org-level-3 ((,class (:foreground ,green-0))))
+         `(org-level-4 ((,class (:foreground ,blue-2))))
+         `(org-level-5 ((,class (:foreground ,purple-0))))
+         `(org-level-6 ((,class (:foreground ,gray-1))))
+         `(org-level-7 ((,class (:foreground ,gray-2))))
+         `(org-level-8 ((,class (:foreground ,gray-3))))
+         `(org-link ((,class (:foreground ,blue-1))))
+         `(org-meta-line ((,class (:foreground ,purple-0))))
+         `(org-special-keyword ((,class (:foreground ,purple-0))))
+         `(org-todo ((,class (:foreground ,red-0))))
          ;; Popup
          `(popup-face ((,class (:foreground ,fg :background ,black-0))))
          `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
@@ -92,8 +113,7 @@
          `(ztreep-diff-model-normal-face ((,class (:foreground ,gray-0))))
          `(ztreep-diff-model-add-face ((,class (:foreground ,blue-0))))
          `(ztreep-diff-model-diff-face ((,class (:foreground ,blue-3))))
-         `(ztreep-diff-model-ignored-face ((,class (:strike-through t :foreground ,red-0))))
-         ))
+         `(ztreep-diff-model-ignored-face ((,class (:strike-through t :foreground ,red-0))))))
 
 ;;;###autoload
 (when load-file-name
