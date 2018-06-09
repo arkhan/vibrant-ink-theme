@@ -103,6 +103,7 @@
          `(org-todo ((,class (:foreground ,red-0))))
          ;; Popup
          `(popup-face ((,class (:foreground ,fg :background ,black-0))))
+         `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
          `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
           ;; ztree
          `(ztreep-header-face ((,class (:foreground ,orange-0))))
