@@ -61,6 +61,12 @@
          `(company-tooltip-common-selection ((,class (:foreground ,yellow-0 :background ,gray-0))))
          `(company-tooltip-selection ((,class (:background ,gray-0))))
          `(company-tooltip-annotation ((,class (:foreground ,orange-0))))
+         ;; Flychek Postframe
+         `(flycheck-posframe-face ((,class (:foreground ,fg))))
+         `(flycheck-posframe-info-face ((,class (:foreground ,fg))))
+         `(flycheck-posframe-warning-face ((,class (:foreground ,yellow-0))))
+         `(flycheck-posframe-error-face ((,class (:foreground ,red-0))))
+         `(flycheck-posframe-background-face ((,class (:background ,gray-1))))
          ;; Highlight
          `(highlight ((,class (:background ,gray-1))))
          `(highlight-indentation-face ((,class (:background ,gray-1))))
