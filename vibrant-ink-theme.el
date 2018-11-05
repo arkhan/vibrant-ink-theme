@@ -85,6 +85,7 @@
          `(ivy-minibuffer-match-face-4 ((,class (:underline t :foreground ,yellow-0))))
          ;; LSP UI
          `(lsp-ui-doc-background ((,class (:background ,black-0))))
+         `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
          ;; Mode line
          `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
          `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
