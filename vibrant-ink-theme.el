@@ -72,7 +72,7 @@
          `(highlight-indentation-face ((,class (:background ,gray-1))))
          `(highlight-indentation-current-column-face ((,class (:background ,gray-1))))
          `(hl-line ((,class (:background ,gray-1))))
-         ;; Imenu
+         ;; Imenu List
          `(imenu-list-entry-face-0 ((,class (:foreground ,orange-0))))
          `(imenu-list-entry-face-1 ((,class (:foreground ,yellow-0))))
          `(imenu-list-entry-face-2 ((,class (:foreground ,green-0))))
@@ -83,6 +83,8 @@
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-4 ((,class (:underline t :foreground ,yellow-0))))
+         ;; LSP UI
+         `(lsp-ui-doc-background ((,class (:background ,black-0))))
          ;; Mode line
          `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
          `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
