@@ -3,7 +3,7 @@
 ;; This theme is based on https://github.com/marktran/color-theme-ujelly
 ;; Author: arkhan
 ;; URL: https://github.com/arkhan/emacs-vibrant-theme
-;; Version: 0.0.1
+;; Version: 0.0.2
 
 ;;; Code:
 
