@@ -116,7 +116,9 @@
          `(popup-face ((,class (:foreground ,fg :background ,black-0))))
          `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
          `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
-          ;; ztree
+         ;; Which function
+         `(which-func ((,class (:foreground ,blue-3))))
+         ;; ztree
          `(ztreep-header-face ((,class (:foreground ,orange-0))))
          `(ztreep-node-face ((,class (:foreground ,green-0))))
          `(ztreep-arrow-face ((,class (:foreground ,blue-0))))
