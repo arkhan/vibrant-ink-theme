@@ -25,7 +25,7 @@
        (purple-0 "#9933cc")
        (green-0 "#66ff00")
        (yellow-0 "#ffcc00")
-       (red-0 "#ffb5d0"))
+       (red-0 "#b22222"))
 
        (custom-theme-set-faces
          'vibrant-ink
