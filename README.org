@@ -1,1 +1,15 @@
-[[file:img/emacs.png][Emacs]]
+#+TITLE:     Vibrant Ink
+#+LANGUAGE:  en
+#+LaTeX_HEADER: \pagenumbering{gobble}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{fontspec}
+#+LaTeX_HEADER: \setmonofont[Scale=0.7]{DejaVu Sans Mono}
+#+LaTeX_HEADER: \usepackage{mathpazo}
+#+LaTeX_HEADER: \usepackage{geometry}
+#+LaTeX_HEADER: \geometry{a4paper, margin=20mm}
+#+LaTeX_HEADER: \usepackage{minted}
+#+LaTeX_HEADER: \setminted{breaklines}
+
+#+ATTR_LATEX: :width 5cm :align center :float t
+#+ATTR_HTML: :width 110px
+[[file:img/emacs.png]]
