@@ -78,7 +78,7 @@
          `(imenu-list-entry-face-2 ((,class (:foreground ,green-0))))
          `(imenu-list-entry-face-3 ((,class (:foreground ,blue-3))))
          ;; Ivy
-         `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,black-0))))
+         `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,gray-3))))
          `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
