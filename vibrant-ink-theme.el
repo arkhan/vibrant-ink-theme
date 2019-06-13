@@ -18,6 +18,7 @@
        (gray-2 "#555555")
        (gray-3 "#333333")
        (orange-0 "#ff6600")
+       (orange-1 "#ff8c00")
        (blue-0 "#aaccff")
        (blue-1 "#5f9ea0")
        (blue-2 "#339999")
@@ -78,7 +79,7 @@
          `(imenu-list-entry-face-2 ((,class (:foreground ,green-0))))
          `(imenu-list-entry-face-3 ((,class (:foreground ,blue-3))))
          ;; Ivy
-         `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,gray-3))))
+         `(ivy-current-match ((,class (:bold t foreground ,yellow-1 :background ,balck-0))))
          `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
          `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
