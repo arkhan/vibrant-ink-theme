@@ -11,7 +11,7 @@
 
 (let ((class '((class color) (min-colors 89)))
       (fg "#ffffff")
-      (bg "#000000")
+      (bg "gray10")
       (black-0 "#111111")
       (gray-0 "#444444")
       (gray-1 "#191919")
