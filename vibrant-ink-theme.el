@@ -116,6 +116,7 @@
    `(org-meta-line ((,class (:foreground ,purple-0))))
    `(org-special-keyword ((,class (:foreground ,purple-0))))
    `(org-todo ((,class (:foreground ,red-0))))
+   `(org-headline-done ((,class (:strike-through t))))
    ;; Popup
    `(popup-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
