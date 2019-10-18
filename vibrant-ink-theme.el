@@ -26,6 +26,7 @@
       (purple-0 "#9933cc")
       (green-0 "#66ff00")
       (yellow-0 "#ffcc00")
+      (yellow-1 "#ccff33")
       (red-0 "#b22222"))
 
   (custom-theme-set-faces
@@ -53,6 +54,25 @@
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t))))
    `(link-visited ((,class (:foreground ,blue-0 :underline t))))
+   ;; Calendar
+   `(cfw:face-title ((,class :foreground ,orange-0  :bold t :height 2.0 :inherit 'variable-pitch)))
+   `(cfw:face-header ((,class :foreground ,yellow-0 :bold t)))
+   `(cfw:face-sunday ((,class :foreground ,red-0 :bold t)))
+   `(cfw:face-saturday ((,class :foreground ,red-0 :bold t)))
+   `(cfw:face-holiday ((,class :foreground nil :background ,blue-2 :bold t)))
+   `(cfw:face-grid ((,class :foreground ,gray-2)))
+   `(cfw:face-periods ((,class :foreground ,green-0)))
+   `(cfw:face-toolbar ((,class :foreground ,purple-0 :background nil :bold t)))
+   `(cfw:face-toolbar-button-off ((,class :foreground ,gray-3 :bold t :inherit 'variable-pitch)))
+   `(cfw:face-toolbar-button-on ((,class :foreground ,purple-0 :bold t :inherit 'variable-pitch)))
+   `(cfw:face-default-content ((,class :foreground ,fg)))
+   `(cfw:face-day-title ((,class :foreground ,fg :bold t)))
+   `(cfw:face-today-title ((,class :foreground ,black-0 :background ,yellow-1 :bold t)))
+   `(cfw:face-default-day ((,class :bold t)))
+   `(cfw:face-today ((,class :foreground nil :background nil :bold t)))
+   `(cfw:face-annotation ((,class :foreground ,orange-1)))
+   `(cfw:face-disable ((,class :foreground ,gray-1)))
+   `(cfw:face-select ((,class :background ,gray-3)))
    ;; Company
    `(company-preview-common ((,class (:foreground nil :background ,gray-0))))
    `(company-scrollbar-bg ((,class (:background ,black-0))))
