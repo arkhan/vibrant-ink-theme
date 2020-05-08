@@ -141,6 +141,10 @@
    `(popup-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
+   ;; selectrum
+   `(selectrum-current-candidate ((,class (:bold t foreground ,yellow-0 :background ,black-0))))
+   `(selectrum-primary-highlight ((,class (:underline t :foreground ,yellow-0))))
+   `(selectrum-secondary-highlight ((,class (:underline t :foreground ,yellow-0))))
    ;; Which function
    `(which-func ((,class (:foreground ,blue-3))))
    ;; ztree
