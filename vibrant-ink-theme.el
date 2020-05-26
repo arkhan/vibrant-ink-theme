@@ -82,6 +82,10 @@
    `(company-tooltip-common-selection ((,class (:foreground ,yellow-0 :background ,gray-0))))
    `(company-tooltip-selection ((,class (:background ,gray-0))))
    `(company-tooltip-annotation ((,class (:foreground ,orange-0))))
+   ;; diff-hl
+   `(diff-hl-insert ((t (:inherit fringe :bold t :foreground ,green-0))))
+   `(diff-hl-change ((t (:inherit fringe :bold t :foreground ,purple-0))))
+   `(diff-hl-delete ((t (:inherit fringe :bold t :foreground ,red-0))))
    ;; Flychek Postframe
    `(flycheck-posframe-face ((,class (:foreground ,fg))))
    `(flycheck-posframe-info-face ((,class (:foreground ,fg))))
