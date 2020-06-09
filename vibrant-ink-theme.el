@@ -92,6 +92,8 @@
    `(flycheck-posframe-warning-face ((,class (:foreground ,yellow-0))))
    `(flycheck-posframe-error-face ((,class (:foreground ,red-0))))
    `(flycheck-posframe-background-face ((,class (:background ,gray-1))))
+   ;; Frog Menu
+   `(frog-menu-posframe-background-face ((,class (:foreground ,fg :background ,black-0))))
    ;; Highlight
    `(highlight ((,class (:background ,gray-1))))
    `(highlight-indentation-face ((,class (:background ,gray-1))))
