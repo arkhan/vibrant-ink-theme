@@ -143,6 +143,8 @@
    `(org-headline-done ((,class (:strike-through t :foreground ,gray-2))))
    `(org-block-begin-line ((t (:inherit org-meta-line :underline ,gray-3))))
    `(org-block-end-line ((t (:inherit org-meta-line :overline ,gray-3))))
+   ;; Perspective
+   `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
    ;; Popup
    `(popup-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
