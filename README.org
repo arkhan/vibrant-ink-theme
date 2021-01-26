@@ -13,3 +13,29 @@
 #+ATTR_LATEX: :width 5cm :align center :float t
 #+ATTR_HTML: :width 110px
 [[file:img/emacs.png]]
+** Installation
+*** straight.el
+#+begin_src emacs-lisp
+  (straight-use-package
+   '(vibrant-ink-theme :type git :host github :repo "arkhan/vibrant-ink-theme"))
+
+  (load-theme 'vibrant-ink t)
+#+end_src
+*** leaf
+#+begin_src emacs-lisp
+  (leaf vibrant-ink-theme
+    :straight (vibrant-ink-theme
+               :type git
+               :host github
+               :repo "arkhan/vibrant-ink-theme")
+    :init (load-theme 'vibrant-ink t))
+#+end_src
+*** use-package
+#+begin_src emacs-lisp
+  (use-package vibrant-theme-ink
+    :straight (vibrant-ink-theme
+               :type git
+               :host github
+               :repo "arkhan/vibrant-ink-theme")
+    :init (load-theme 'vibrant-ink t))
+#+end_src
