@@ -145,6 +145,10 @@
    `(org-block-end-line ((t (:inherit org-meta-line :overline ,gray-3))))
    ;; Perspective
    `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
+   ;; persp-mode
+   `(persp-face-lighter-default ((,class (:weight bold :foreground ,purple-0))))
+   `(persp-face-lighter-nil-persp ((,class (:foreground ,gray-0))))
+   `(persp-face-lighter-buffer-not-in-persp ((,class (:foreground ,red-0))))
    ;; Popup
    `(popup-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
