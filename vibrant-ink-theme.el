@@ -110,7 +110,8 @@
    `(lsp-ui-doc-background ((,class (:background ,black-0))))
    `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
    ;; Mini-modeline
-   `(mini-modeline-mode-line ((,class (:background ,gray-3 :box nil :height 0.1))))
+   `(mini-modeline-mode-line ((,class (:background ,gray-0 :box nil :height 0.1))))
+   `(mini-modeline-mode-line-inactive ((,class (:background ,gray-1 :box nil :height 0.1))))
    ;; Mode line
    `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
    `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
@@ -157,6 +158,8 @@
    `(selectrum-current-candidate ((,class (:bold t foreground ,yellow-0 :background ,black-0))))
    `(selectrum-primary-highlight ((,class (:underline t :foreground ,yellow-0))))
    `(selectrum-secondary-highlight ((,class (:underline t :foreground ,yellow-0))))
+   ;; Term
+   `(term-color-black ((,class (:foreground "#202020" :background "#31363b"))))
    ;; Which function
    `(which-func ((,class (:foreground ,blue-3))))
    ;; ztree
