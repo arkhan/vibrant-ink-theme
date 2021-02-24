@@ -54,7 +54,7 @@
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t))))
    `(link-visited ((,class (:foreground ,blue-0 :underline t))))
-   ;; Calendar
+   ;; calendar
    `(cfw:face-title ((,class :foreground ,orange-0  :bold t :height 2.0 :inherit 'variable-pitch)))
    `(cfw:face-header ((,class :foreground ,yellow-0 :bold t)))
    `(cfw:face-sunday ((,class :foreground ,red-0 :bold t)))
@@ -73,52 +73,65 @@
    `(cfw:face-annotation ((,class :foreground ,orange-1)))
    `(cfw:face-disable ((,class :foreground ,gray-1)))
    `(cfw:face-select ((,class :background ,gray-3)))
-   ;; Company
+   ;; company
    `(company-preview-common ((,class (:foreground nil :background ,gray-0))))
    `(company-scrollbar-bg ((,class (:background ,black-0))))
    `(company-scrollbar-fg ((,class (:background ,black-0))))
    `(company-tooltip ((,class (:foreground ,fg :background ,black-0))))
    `(company-tooltip-common ((,class (:underline t :foreground ,yellow-0 :background ,black-0))))
    `(company-tooltip-common-selection ((,class (:foreground ,yellow-0 :background ,gray-0))))
-   `(company-tooltip-selection ((,class (:background ,gray-0))))
+   `(company-tooltip-selection ((,class (:background ,gray-1))))
    `(company-tooltip-annotation ((,class (:foreground ,orange-0))))
-   ;; Flychek Postframe
+   ;; flychek postframe
    `(flycheck-posframe-face ((,class (:foreground ,fg))))
    `(flycheck-posframe-info-face ((,class (:foreground ,fg))))
    `(flycheck-posframe-warning-face ((,class (:foreground ,yellow-0))))
    `(flycheck-posframe-error-face ((,class (:foreground ,red-0))))
    `(flycheck-posframe-background-face ((,class (:background ,gray-1))))
-   ;; Frog Menu
+   ;; frog Menu
    `(frog-menu-posframe-background-face ((,class (:foreground ,fg :background ,black-0))))
-   ;; Highlight
+   ;; highlight
    `(highlight ((,class (:background ,gray-1))))
    `(highlight-indentation-face ((,class (:background ,gray-1))))
    `(highlight-indentation-current-column-face ((,class (:background ,gray-1))))
    `(hl-line ((,class (:background ,gray-1))))
-   ;; Imenu List
+   ;; imenu list
    `(imenu-list-entry-face-0 ((,class (:foreground ,orange-0))))
    `(imenu-list-entry-face-1 ((,class (:foreground ,yellow-0))))
    `(imenu-list-entry-face-2 ((,class (:foreground ,green-0))))
    `(imenu-list-entry-face-3 ((,class (:foreground ,blue-3))))
-   ;; Ivy
-   `(ivy-current-match ((,class (:bold t foreground ,yellow-0 :background ,black-0))))
+   ;; ivy
+   `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,black-0))))
    `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,yellow-0))))
    `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
    `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
    `(ivy-minibuffer-match-face-4 ((,class (:underline t :foreground ,yellow-0))))
-   ;; LSP UI
+   ;; lsp ui
    `(lsp-ui-doc-background ((,class (:background ,black-0))))
    `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
-   ;; Mini-modeline
+   ;; mini-modeline
    `(mini-modeline-mode-line ((,class (:background ,gray-0 :box nil :height 0.1))))
    `(mini-modeline-mode-line-inactive ((,class (:background ,gray-1 :box nil :height 0.1))))
-   ;; Mode line
+   ;; mode line
    `(mode-line ((,class (:foreground ,fg :background nil :box (:color ,gray-1)))))
    `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
-   ;; Neotree
+   ;; neotree
    `(neo-root-dir-face ((,class (:foreground ,orange-0))))
    `(neo-expand-btn-face ((,class (:foreground ,blue-3))))
-   ;; NXML
+   ;; notmuch
+   `(notmuch-message-summany-face ((,class (:foreground ,gray-1 :background nil))))
+   `(notmuch-search-count ((,class (:foreground ,purple-0))))
+   `(notmuch-search-date ((,class (:foreground ,gray-0))))
+   `(notmuch-search-flagged-face ((,class (:foreground ,red-0))))
+   `(notmuch-search-matching-authors ((,class (:foreground ,orange-0))))
+   `(notmuch-search-non-matching-authors ((,class (:foreground ,fg))))
+   `(notmuch-search-subject ((,class (:foreground ,yellow-0))))
+   `(notmuch-search-unread-face ((,class (:bold t))))
+   `(notmuch-tree-match-author-face ((, class (:foreground ,orange-0))))
+   `(notmuch-tree-match-date-face ((, class (:foreground ,gray-0))))
+   `(notmuch-tree-match-face ((, class (:foreground ,fg))))
+   `(notmuch-tree-match-subject-face ((, class (:foreground ,yellow-0))))
+   ;; nxml
    `(nxml-element-local-name ((,class (:foreground ,orange-0))))
    `(nxml-delimiter ((,class (:foreground ,orange-0))))
    `(nxml-attribute-value ((,class (:foreground, green-0))))
@@ -144,21 +157,21 @@
    `(org-headline-done ((,class (:strike-through t :foreground ,gray-2))))
    `(org-block-begin-line ((t (:inherit org-meta-line :underline ,gray-3))))
    `(org-block-end-line ((t (:inherit org-meta-line :overline ,gray-3))))
-   ;; Perspective
+   ;; perspective
    `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
    ;; persp-mode
    `(persp-face-lighter-default ((,class (:weight bold :foreground ,purple-0))))
    `(persp-face-lighter-nil-persp ((,class (:foreground ,gray-0))))
    `(persp-face-lighter-buffer-not-in-persp ((,class (:foreground ,red-0))))
-   ;; Popup
+   ;; popup
    `(popup-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-tip-face ((,class (:foreground ,fg :background ,black-0))))
    `(popup-menu-selection-face ((,class (:foreground ,yellow-0 :background ,gray-0))))
    ;; selectrum
-   `(selectrum-current-candidate ((,class (:bold t foreground ,yellow-0 :background ,black-0))))
+   `(selectrum-current-candidate ((,class (:background ,gray-3))))
    `(selectrum-primary-highlight ((,class (:underline t :foreground ,yellow-0))))
    `(selectrum-secondary-highlight ((,class (:underline t :foreground ,yellow-0))))
-   ;; Term
+   ;; term
    `(term-color-black ((,class (:foreground "#202020" :background "#31363b"))))
    ;; Which function
    `(which-func ((,class (:foreground ,blue-3))))
