@@ -113,7 +113,7 @@
    `(mini-modeline-mode-line ((,class (:background ,gray-0 :box nil :height 0.1))))
    `(mini-modeline-mode-line-inactive ((,class (:background ,gray-1 :box nil :height 0.1))))
    ;; mode line
-   `(mode-line ((,class (:foreground ,fg :background "#21242b"))))
+   `(mode-line ((,class (:foreground ,fg :background "#15181C"))))
    `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))
    ;; neotree
    `(neo-root-dir-face ((,class (:foreground ,orange-0))))
