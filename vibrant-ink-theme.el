@@ -111,11 +111,11 @@
    `(lsp-ui-doc-background ((,class (:background ,black-0))))
    `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
    ;; mini-modeline
-   `(mini-modeline-mode-line ((,class (:background ,bg :box nil :height 0.14))))
+   `(mini-modeline-mode-line ((,class (:background ,bg :box nil :height 0.1))))
    `(mini-modeline-mode-line-inactive ((,class (:foreground ,gray-3 :background ,bg :box nil :height 0.1))))
    ;; mode line
-   `(mode-line ((,class (:background ,bg :box nil :height 0.14))))
-   `(mode-line-inactive ((,class (:foreground ,gray-3 :background nil :box nil :height 0.1))))
+   `(mode-line ((,class (:foreground ,fg :background bg))))
+   `(mode-line-inactive ((,class (:foreground ,gray-3 :background nil :box (:color ,black-0)))))
    ;; neotree
    `(neo-root-dir-face ((,class (:foreground ,orange-0))))
    `(neo-expand-btn-face ((,class (:foreground ,blue-3))))
