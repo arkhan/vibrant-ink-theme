@@ -110,8 +110,8 @@
    ;; lsp ui
    `(lsp-ui-doc-background ((,class (:background ,black-0))))
    `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
-   ;; mini-modeline
-   ;; `(mini-modeline-mode-line ((,class (:background ,bg :box nil :height 0.1))))
+   ;; mini-modelinec
+   `(mini-modeline-mode-line ((,class (:background ,gray-3 :box nil :height 0.1))))
    ;; `(mini-modeline-mode-line-inactive ((,class (:foreground ,gray-3 :background ,bg :box nil :height 0.1))))
    ;; mode line
    `(mode-line ((,class (:foreground ,fg :background ,bg :box (:color ,black-0)))))
