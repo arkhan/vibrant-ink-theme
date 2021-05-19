@@ -114,8 +114,8 @@
    ;; `(mini-modeline-mode-line ((,class (:background ,bg :box nil :height 0.1))))
    ;; `(mini-modeline-mode-line-inactive ((,class (:foreground ,gray-3 :background ,bg :box nil :height 0.1))))
    ;; mode line
-   ;; `(mode-line ((,class (:foreground ,fg :background ,bg))))
-   ;; `(mode-line-inactive ((,class (:foreground ,gray-3 :background nil :box (:color ,black-0)))))
+   `(mode-line ((,class (:foreground ,fg :background ,bg :box (:color ,black-0)))))
+   `(mode-line-inactive ((,class (:foreground ,gray-3 :background bg :box (:color ,black-0)))))
    ;; neotree
    `(neo-root-dir-face ((,class (:foreground ,orange-0))))
    `(neo-expand-btn-face ((,class (:foreground ,blue-3))))
