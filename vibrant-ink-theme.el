@@ -50,6 +50,7 @@
    `(font-lock-warning-face ((,class (:foreground ,red-0))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,yellow-0 :bold t))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,red-0 :bold t))))
+   `(header-line ((,class (:inherit nil :foreground ,fg :background ,bg))))
    `(isearch ((,class (:background ,gray-2))))
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t))))
@@ -110,8 +111,8 @@
    `(lsp-ui-doc-background ((,class (:background ,black-0))))
    `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
    ;; mini-modeline
-   `(mini-modeline-mode-line ((,class (:background ,gray-0 :box nil :height 0.1))))
-   `(mini-modeline-mode-line-inactive ((,class (:background ,gray-1 :box nil :height 0.1))))
+   `(mini-modeline-mode-line ((,class (:background ,bg :box nil :height 0.1))))
+   `(mini-modeline-mode-line-inactive ((,class (:background ,bg :box nil :height 0.1))))
    ;; mode line
    `(mode-line ((,class (:foreground ,fg :background "#15181C"))))
    `(mode-line-inactive ((,class (:foreground ,fg :background nil :box (:color ,black-0)))))

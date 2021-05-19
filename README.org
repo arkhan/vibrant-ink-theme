@@ -13,6 +13,7 @@
 #+ATTR_LATEX: :width 5cm :align center :float t
 #+ATTR_HTML: :width 110px
 [[file:img/emacs.png]]
+* vibrant-ink
 ** Installation
 *** straight.el
 #+begin_src emacs-lisp
