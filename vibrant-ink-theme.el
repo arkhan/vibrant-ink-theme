@@ -17,6 +17,7 @@
       (gray-1 "#191919")
       (gray-2 "#555555")
       (gray-3 "#333333")
+      (gray-4 "#15181C")
       (orange-0 "#ff6600")
       (orange-1 "#ff8c00")
       (blue-0 "#aaccff")
@@ -50,7 +51,7 @@
    `(font-lock-warning-face ((,class (:foreground ,red-0))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,yellow-0 :bold t))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,red-0 :bold t))))
-   `(header-line ((,class (:inherit nil :bold t :background ,gray-3 :foreground ,orange-0 :distant-foreground ,bg))))
+   `(header-line ((,class (:inherit nil :bold t :background ,gray-4 :foreground ,orange-0 :distant-foreground ,bg))))
    `(isearch ((,class (:background ,gray-2))))
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t))))
@@ -111,10 +112,9 @@
    `(lsp-ui-doc-background ((,class (:background ,black-0))))
    `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
    ;; mini-modelinec
-   `(mini-modeline-mode-line ((,class (:background ,gray-3 :box nil :height 0.1))))
-   ;; `(mini-modeline-mode-line-inactive ((,class (:foreground ,gray-3 :background ,bg :box nil :height 0.1))))
+   `(mini-modeline-mode-line ((,class (:background ,gray-4 :box nil :height 0.1))))
    ;; mode line
-   `(mode-line ((,class (:foreground ,fg :background ,bg :box (:color ,black-0)))))
+   `(mode-line ((,class (:foreground ,fg :background ,gray-4 :box (:color ,black-0)))))
    `(mode-line-inactive ((,class (:foreground ,gray-3 :background ,bg :box (:color ,black-0)))))
    ;; neotree
    `(neo-root-dir-face ((,class (:foreground ,orange-0))))
