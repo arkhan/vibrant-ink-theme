@@ -85,7 +85,8 @@
    `(company-tooltip-selection ((,class (:background ,gray-1))))
    `(company-tooltip-annotation ((,class (:foreground ,orange-0))))
    ;; company-posframe
-   `(company-posframe-metadata ((,class (:inherit nil :bold t :foreground nil :background ,gray-0))))
+   `(company-posframe-inactive-backend-name ((,class (:inherit nil :foreground nil :background ,gray-0))))
+   `(company-posframe-active-backend-name ((,class (:inherit nil :bold t :foreground ,orange-0 :background ,gray-0))))
    ;; flychek postframe
    `(flycheck-posframe-face ((,class (:foreground ,fg))))
    `(flycheck-posframe-info-face ((,class (:foreground ,fg))))
