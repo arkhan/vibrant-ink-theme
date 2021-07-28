@@ -159,8 +159,10 @@
    `(org-special-keyword ((,class (:foreground ,purple-0))))
    `(org-todo ((,class (:foreground ,red-0))))
    `(org-headline-done ((,class (:strike-through t :foreground ,gray-2))))
-   `(org-block-begin-line ((t (:inherit org-meta-line :underline ,gray-3))))
-   `(org-block-end-line ((t (:inherit org-meta-line :overline ,gray-3))))
+   `(org-block ((,class (:background ,bg))))
+   `(org-block-background ((,class (:background ,bg))))
+   `(org-block-begin-line ((t (:inherit org-block  :foreground ,purple-0))))
+   `(org-block-end-line   ((t (:inherit org-block-begin-line))))
    ;; perspective
    `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
    ;; persp-mode
