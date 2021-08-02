@@ -51,7 +51,7 @@
    `(font-lock-warning-face ((,class (:foreground ,red-0))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,yellow-0 :bold t))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,red-0 :bold t))))
-   `(header-line ((,class (:inherit nil :bold t :background ,gray-4 :foreground ,orange-0 :distant-foreground ,bg))))
+   `(header-line ((,class (:inherit nil :bold t :background ,gray-4 :distant-foreground ,bg))))
    `(isearch ((,class (:background ,gray-2))))
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t))))
