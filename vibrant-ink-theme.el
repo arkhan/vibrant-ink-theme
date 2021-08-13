@@ -179,6 +179,14 @@
    `(selectrum-secondary-highlight ((,class (:underline t :foreground ,yellow-0))))
    ;; term
    `(term-color-black ((,class (:foreground "#202020" :background "#31363b"))))
+   `(term-color-red ((,class (:foreground "#c0392b" :background "#f44f4f"))))
+   `(term-color-green ((,class (:foreground "#218058" :background "#27ae60"))))
+   `(term-color-yellow ((,class (:foreground "#fdbc4b" :background "#fdbc4b"))))
+   `(term-color-blue ((,class (:foreground "#2980b9" :background "#0099ff"))))
+   `(term-color-magenta ((,class (:foreground "#8e44ad" :background "#af81ff"))))
+   `(term-color-cyan ((,class (:foreground "#27aeae" :background "#31dddd"))))
+   `(term-color-white ((,class (:foreground "#acada1" :background "#cfd0c2"))))
+
    ;; Which function
    `(which-func ((,class (:foreground ,blue-3))))
    ;; ztree
