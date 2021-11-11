@@ -33,7 +33,7 @@
   (custom-theme-set-faces
    'vibrant-ink
    `(default ((,class (:foreground ,fg :background ,bg))))
-   `(cursor ((,class ((:foreground ,fg :background ,bg)))))
+   `(cursor ((,class ((:background ,fg)))))
    `(region ((,class (:background ,gray-1))))
    `(fringe ((,class (:background ,black-0))))
    `(minibuffer-prompt ((,class (:foreground ,orange-0))))
