@@ -39,7 +39,7 @@
    `(minibuffer-prompt ((,class (:foreground ,orange-0))))
    `(font-lock-builtin-face ((,class (:foreground ,blue-0 :bold t))))
    `(font-lock-comment-face ((,class (:slant italic :foreground ,purple-0))))
-   `(font-lock-comment-delimiter-face ((,class (:bold t, :foreground ,purple-0))))
+   `(font-lock-comment-delimiter-face ((,class (:slant italic, :foreground ,purple-0))))
    `(font-lock-constant-face ((,class (:foreground ,blue-2))))
    `(font-lock-doc-face ((,class (:foreground ,green-0))))
    `(font-lock-function-name-face ((,class (:foreground ,yellow-0))))
