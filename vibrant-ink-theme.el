@@ -171,7 +171,7 @@
                                         :width condensed :weight regular
                                         :underline nil
                                         ,@(and (integerp org-modern-label-border)
-                                               `(:box (:line-width ,(- org-modern-label-border)))))))
+                                               `(:box (:line-width ,(- org-modern-label-border))))))))
    ;; perspective
    `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
    ;; persp-mode
