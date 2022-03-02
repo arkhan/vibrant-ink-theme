@@ -164,6 +164,14 @@
    `(org-block-background ((,class (:background ,bg))))
    `(org-block-begin-line ((t (:inherit org-block  :foreground ,purple-0))))
    `(org-block-end-line   ((t (:inherit org-block-begin-line))))
+   ;; org-modern
+   `(org-modern-block-keyword ((,class (:weight bold :height 1.0))))
+   `(org-modern-label ((,class (:height 1.0
+                                        :inherit variable-pitch
+                                        :width condensed :weight regular
+                                        :underline nil
+                                        ,@(and (integerp org-modern-label-border)
+                                               `(:box (:line-width ,(- org-modern-label-border)))))))
    ;; perspective
    `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
    ;; persp-mode
