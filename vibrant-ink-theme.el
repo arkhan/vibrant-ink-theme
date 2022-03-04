@@ -143,7 +143,7 @@
    `(nxml-attribute-local-name ((,class (:foreground ,blue-1))))
    ;; Org-mode
    `(org-checkbox ((,class (:foreground ,green-0))))
-   `(org-code ((,class (:weight bold :foreground ,gray-3))))
+   `(org-code ((,class (:weight bold :foreground ,gray-2))))
    `(org-date ((,class (:foreground ,gray-0))))
    `(org-document-info-keyword ((,class (:foreground ,purple-0))))
    `(org-document-title ((,class (:foreground ,yellow-0))))
