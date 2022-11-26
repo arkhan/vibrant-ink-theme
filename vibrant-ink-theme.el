@@ -166,7 +166,7 @@
    `(org-block-begin-line ((t (:inherit org-block  :foreground ,purple-0))))
    `(org-block-end-line   ((t (:inherit org-block-begin-line))))
    ;; org-modern
-   `(org-modern-block-keyword ((,class (:weight bold :height 1.0))))
+   `(org-modern-block-name ((,class (:weight bold :height 1.0))))
    `(org-modern-label ((t (:inherit org-modern-label :height 1.0))))
    ;; perspective
    `(persp-selected-face ((,class (:weight bold :foreground ,purple-0))))
