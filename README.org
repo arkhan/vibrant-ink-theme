@@ -1,4 +1,4 @@
-#+TITLE:     Vibrant Ink
+#+TITLE: Vibrant Ink
 #+LANGUAGE:  en
 #+LaTeX_HEADER: \pagenumbering{gobble}
 #+LaTeX_HEADER: \usepackage[T1]{fontenc}
