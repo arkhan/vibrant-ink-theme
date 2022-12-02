@@ -35,7 +35,7 @@
    `(default ((,class (:foreground ,fg :background ,bg))))
    `(cursor ((,class ((:background ,fg)))))
    `(region ((,class (:background ,gray-1))))
-   `(fringe ((,class (:background ,bg))))
+   `(fringe ((t (:inherit default :background ,bg))))
    `(minibuffer-prompt ((,class (:foreground ,orange-0))))
    `(font-lock-builtin-face ((,class (:foreground ,blue-0 :bold t))))
    `(font-lock-comment-face ((,class (:slant italic :foreground ,purple-0))))
