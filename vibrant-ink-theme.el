@@ -31,11 +31,12 @@
       (red-0 "#b22222"))
 
   (custom-theme-set-faces
-   'vibrant-ink
+   `vibrant-ink
    `(default ((,class (:foreground ,fg :background ,bg))))
    `(cursor ((,class ((:background ,fg)))))
    `(region ((,class (:background ,gray-1))))
    `(fringe ((,class (:inherit nil :background ,bg))))
+   `(alert-saved-fringe-face ((,class (:inherit nil :background ,black-0))))
    `(minibuffer-prompt ((,class (:foreground ,orange-0))))
    `(font-lock-builtin-face ((,class (:foreground ,blue-0 :bold t))))
    `(font-lock-comment-face ((,class (:slant italic :foreground ,purple-0))))
