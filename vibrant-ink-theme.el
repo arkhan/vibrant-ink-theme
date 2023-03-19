@@ -77,6 +77,9 @@
    `(rainbow-delimiters-base-face ((,class :inherit 'default :bold t)))
    `(rainbow-delimiters-unmatched-face  ((,class :foreground ,red-0 :bold t :inverse-video t)))
    `(rainbow-delimiters-mismatched-face ((,class :inherit 'rainbow-delimiters-unmatched-face :bold t)))
+   ;; Childframe
+   `(child-frame-border ((,class :background ,gray-1)))
+   `(internal-border ((,class :background ,gray-1)))
    ;; calendar
    `(cfw:face-title ((,class :foreground ,orange-0  :bold t :height 2.0 :inherit 'variable-pitch)))
    `(cfw:face-header ((,class :foreground ,yellow-0 :bold t)))
@@ -96,24 +99,6 @@
    `(cfw:face-annotation ((,class :foreground ,orange-1)))
    `(cfw:face-disable ((,class :foreground ,gray-1)))
    `(cfw:face-select ((,class :background ,gray-3)))
-   ;; company
-   `(company-preview-common ((,class (:foreground nil :background ,gray-0))))
-   `(company-scrollbar-bg ((,class (:background ,black-0))))
-   `(company-scrollbar-fg ((,class (:background ,black-0))))
-   `(company-tooltip ((,class (:foreground ,fg :background ,black-0))))
-   `(company-tooltip-common ((,class (:underline t :foreground ,yellow-0 :background ,black-0))))
-   `(company-tooltip-common-selection ((,class (:foreground ,yellow-0 :background ,gray-0))))
-   `(company-tooltip-selection ((,class (:background ,gray-1))))
-   `(company-tooltip-annotation ((,class (:foreground ,orange-0))))
-   ;; company-posframe
-   `(company-posframe-inactive-backend-name ((,class (:inherit nil :foreground nil :background ,gray-0))))
-   `(company-posframe-active-backend-name ((,class (:inherit nil :bold t :foreground ,orange-0 :background ,gray-0))))
-   ;; flychek postframe
-   `(flycheck-posframe-face ((,class (:foreground ,fg))))
-   `(flycheck-posframe-info-face ((,class (:foreground ,fg))))
-   `(flycheck-posframe-warning-face ((,class (:foreground ,yellow-0))))
-   `(flycheck-posframe-error-face ((,class (:foreground ,red-0))))
-   `(flycheck-posframe-background-face ((,class (:background ,gray-1))))
    ;; frog Menu
    `(frog-menu-posframe-background-face ((,class (:foreground ,fg :background ,black-0))))
    ;; highlight
