@@ -99,6 +99,10 @@
    `(cfw:face-annotation ((,class :foreground ,orange-1)))
    `(cfw:face-disable ((,class :foreground ,gray-1)))
    `(cfw:face-select ((,class :background ,gray-3)))
+   ;; diff-hl
+   `(diff-hl-insert ((,class :inherit 'fringe :foreground ,green-0)))
+   `(diff-hl-change ((,class :inherit 'fringe :foreground ,purple-0)))
+   `(diff-hl-delete ((,class :inherit 'fringe :foreground ,red-0)))
    ;; frog Menu
    `(frog-menu-posframe-background-face ((,class (:foreground ,fg :background ,black-0))))
    ;; highlight
