@@ -99,6 +99,12 @@
    `(cfw:face-annotation ((,class :foreground ,orange-1)))
    `(cfw:face-disable ((,class :foreground ,gray-1)))
    `(cfw:face-select ((,class :background ,gray-3)))
+   ;; corfu
+   `(corfu-bar ((,class (:background ,fg))))
+   `(corfu-border ((,class (:background ,gray-0))))
+   `(corfu-current ((,class (:inherit 'region))))
+   `(corfu-default ((,class (:background ,black-0 :foreground ,fg))))
+   `(corfu-popupinfo ((,class (:inherit corfu-default))))
    ;; diff-hl
    `(diff-hl-insert ((,class :inherit 'fringe :foreground ,green-0)))
    `(diff-hl-change ((,class :inherit 'fringe :foreground ,purple-0)))
