@@ -100,38 +100,29 @@
    `(cfw:face-disable ((,class :foreground ,gray-1)))
    `(cfw:face-select ((,class :background ,gray-3)))
    ;; corfu
-   `(corfu-bar ((,class (:background ,fg))))
-   `(corfu-border ((,class (:background ,gray-0))))
-   `(corfu-current ((,class (:inherit 'region))))
-   `(corfu-default ((,class (:background ,black-0 :foreground ,fg))))
-   `(corfu-popupinfo ((,class (:inherit corfu-default))))
+   `(corfu-bar ((,class :background ,fg)))
+   `(corfu-border ((,class :background ,gray-0)))
+   `(corfu-current ((,class :inherit 'region)))
+   `(corfu-default ((,class :background ,bg :foreground ,fg)))
+   `(corfu-popupinfo ((,class :inherit corfu-default)))
    ;; diff-hl
-   `(diff-hl-insert ((,class :inherit 'fringe :foreground ,green-0)))
-   `(diff-hl-change ((,class :inherit 'fringe :foreground ,purple-0)))
-   `(diff-hl-delete ((,class :inherit 'fringe :foreground ,red-0)))
+   `(diff-hl-insert ((,class :background ,green-0 :foreground ,green-0)))
+   `(diff-hl-change ((,class :background ,purple-0 :foreground ,purple-0)))
+   `(diff-hl-delete ((,class :background ,red-0 :foreground ,red-0)))
    ;; frog Menu
-   `(frog-menu-posframe-background-face ((,class (:foreground ,fg :background ,black-0))))
+   `(frog-menu-posframe-background-face ((,class :foreground ,fg :background ,black-0)))
    ;; highlight
-   `(highlight ((,class (:background ,gray-1))))
-   `(highlight-indentation-face ((,class (:background ,gray-1))))
-   `(highlight-indentation-current-column-face ((,class (:background ,gray-1))))
-   `(hl-line ((,class (:background ,gray-1))))
+   `(highlight ((,class :background ,gray-1)))
+   `(highlight-indentation-face ((,class :background ,gray-1)))
+   `(highlight-indentation-current-column-face ((,class :background ,gray-1)))
+   `(hl-line ((,class :background ,gray-1)))
    ;; imenu list
    `(imenu-list-entry-face-0 ((,class (:foreground ,orange-0))))
    `(imenu-list-entry-face-1 ((,class (:foreground ,yellow-0))))
    `(imenu-list-entry-face-2 ((,class (:foreground ,green-0))))
    `(imenu-list-entry-face-3 ((,class (:foreground ,blue-3))))
-   ;; ivy
-   `(ivy-current-match ((,class (:foreground ,yellow-0 :background ,black-0))))
-   `(ivy-minibuffer-match-face-1 ((,class (:underline t :foreground ,yellow-0))))
-   `(ivy-minibuffer-match-face-2 ((,class (:underline t :foreground ,yellow-0))))
-   `(ivy-minibuffer-match-face-3 ((,class (:underline t :foreground ,yellow-0))))
-   `(ivy-minibuffer-match-face-4 ((,class (:underline t :foreground ,yellow-0))))
-   ;; lsp ui
-   `(lsp-ui-doc-background ((,class (:background ,black-0))))
-   `(lsp-ui-doc-header ((,class (:background ,black-0 :foreground ,orange-0))))
    ;; mini-modelinec
-   `(mini-modeline-mode-line ((,class (:background ,gray-4 :box nil :height 0.1))))
+   `(mini-modeline-mode-line ((,class :background ,gray-4 :box nil :height 0.1)))
    ;; mode line
    `(mode-line ((,class (:foreground ,fg :background ,bg :box (:color ,black-0)))))
    `(mode-line-inactive ((,class (:foreground ,gray-3 :background ,bg :box (:color ,black-0)))))
