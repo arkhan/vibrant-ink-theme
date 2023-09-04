@@ -105,10 +105,6 @@
    `(corfu-current ((,class :inherit 'region)))
    `(corfu-default ((,class :background ,bg :foreground ,fg)))
    `(corfu-popupinfo ((,class :inherit corfu-default)))
-   ;; diff-hl
-   `(diff-hl-insert ((,class :background ,green-0 :foreground ,green-0)))
-   `(diff-hl-change ((,class :background ,purple-0 :foreground ,purple-0)))
-   `(diff-hl-delete ((,class :background ,red-0 :foreground ,red-0)))
    ;; frog Menu
    `(frog-menu-posframe-background-face ((,class :foreground ,fg :background ,black-0)))
    ;; highlight
