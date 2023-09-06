@@ -63,7 +63,11 @@
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t :bold t))))
    `(link-visited ((,class (:foreground ,blue-1 :underline t :bold t))))
-   ;;;; rainbow-delimiters
+   ;; breadcrumb
+   `(breadcrumb-face ((,class (:background ,bg))))
+   `(breadcrumb-project-base-face ((,class (:background ,bg :foregorund ,orange-0 :bold t))))
+   `(breadcrumb-project-leaf-face ((,class (:background ,bg :foregorund ,yellow-1 :bold t))))
+   ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,fg :bold t)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,gray-0 :bold t)))
    `(rainbow-delimiters-depth-3-face ((,class :foreground ,purple-0 :bold t)))
