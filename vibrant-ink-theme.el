@@ -63,8 +63,6 @@
    `(lazy-highlight ((,class (:background ,gray-0))))
    `(link ((,class (:foreground ,blue-0 :underline t :bold t))))
    `(link-visited ((,class (:foreground ,blue-1 :underline t :bold t))))
-   `(shadow ((,class (:foregorund ,gray-2))))
-   `(mode-line-buffer-id ((,class (:bold t))))
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,fg :bold t)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,gray-0 :bold t)))
